@@ -22,7 +22,9 @@ const App = () => {
           <Pressable
             style={{alignItems: 'center'}}
             onPress={navigationToLandscape}>
-            <Text>Rotate Landscape</Text>
+            <Text style={{fontSize: 20, padding: 10}}>
+              Navigate to Landscape Screen
+            </Text>
           </Pressable>
         </View>
       </SafeAreaView>
